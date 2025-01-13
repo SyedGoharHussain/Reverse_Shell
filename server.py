@@ -1,11 +1,11 @@
 import socket
 import base64
 
-ip_adress = '0.0.0.0'
-port_number = 1234
+ip_adress = '0.0.0.0' //IPv4 format
+port_number = 1234 
 
 ss = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-ss.bind((ip_adress,port_number))
+ss.bind((ip_adress,port_number))   //bind port with ip 
 ss.listen(5)
 print("Waiting For Connection....")
 connection, address = ss.accept()
