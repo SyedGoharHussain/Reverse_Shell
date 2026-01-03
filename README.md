@@ -88,6 +88,5 @@ Check the output of `server.py` on your machine. If everything is set up correct
 
 ---
 
-## License
 
-This project is released under the [MIT License](LICENSE).
+
